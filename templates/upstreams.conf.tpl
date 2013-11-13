@@ -14,5 +14,5 @@ upstream ${PROJECT_NAME}-prod {
 }
 upstream ${PROJECT_NAME}-try {
     server ${DEPLOY_BOX}:`expr ${PORT_BASE} + 4`;
-} 
+}
 "
